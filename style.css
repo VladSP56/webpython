@@ -1,0 +1,22 @@
+.card {
+    background-color: #FFFACD; /* Цвет фона карточек */
+    border: 2px solid #00A3A3; /* Рамка для карточки */
+    border-radius: 10px; /* Скругление углов */
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.8s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #AFEEEE;
+}
+
+.profile-photo {
+    width: 50%;
+    height: auto;
+    border-radius: 10%; /* Скругление углов фото */
+    margin-bottom: 10px;
+}
